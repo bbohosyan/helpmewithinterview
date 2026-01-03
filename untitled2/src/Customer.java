@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Customer {
 
-    public List<Item> cart = new ArrayList<>();
-    public String customerName;
-    public String email;
-    public boolean isLoyaltyMember;
-    public double loyaltyPoints = 0;
+    private List<Item> cart = new ArrayList<>();
+    private String customerName;
+    private String email;
+    private boolean isLoyaltyMember;
+    private double loyaltyPoints = 0;
 
     public List<Item> getCart() {
         return cart;

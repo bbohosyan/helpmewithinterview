@@ -7,5 +7,6 @@ public class ElectronicsStrategy implements CategoryStrategy {
         } else {
             total += item.price * item.quantity;
         }
+        return total;
     }
 }
